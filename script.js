@@ -19,7 +19,7 @@ for (let i = 0; i < btnShowModal.length; i++)
   btnShowModal[i].addEventListener('click', showModal);
 
 btnCloseModal.addEventListener('click', closeModal);
-overlay.addEventListener('click', closeModal);
+// overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keyup', function (e) {
   console.log(e.key);
